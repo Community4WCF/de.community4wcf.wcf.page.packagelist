@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1817 2011-08-26 12:28:30Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.packagelist"><![CDATA[<a href="index.php?page=PackageList">Packagelist</a>]]></item>
+	</category>
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.packagelist"><![CDATA[Packagelist]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.managepages"><![CDATA[Manage Pages]]></item>
+		<item name="wcf.acp.group.option.category.user.managepages.description"><![CDATA[To manage your pages.]]></item>
+		<item name="wcf.acp.group.option.user.managepages.canViewPackageList"><![CDATA[Can see packagelist]]></item>
+		<item name="wcf.acp.group.option.user.managepages.canViewPackageList.description"><![CDATA[Members of this usergroup can see the packagelist. (<span style="color: #ff0000">Make the packagelist access only trusted users!</span>)]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<!-- module -->
+		<item name="wcf.acp.option.category.module.content.managepages"><![CDATA[Manage Pages]]></item>
+		<item name="wcf.acp.option.category.module.content.managepages.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.module_packagelist"><![CDATA[Packagelist]]></item>
+		<item name="wcf.acp.option.module_packagelist.description"><![CDATA[Enables the packagelist.]]></item>
+		<!-- /module -->
+		<!-- page -->
+		<item name="wcf.acp.option.category.packagelist"><![CDATA[Packagelist]]></item>
+		<item name="wcf.acp.option.category.packagelist.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.packagelist_items_per_page"><![CDATA[Packages per page]]></item>
+		<item name="wcf.acp.option.packagelist_items_per_page.description"><![CDATA[Enter the number of packets per page.]]></item>
+		<item name="wcf.acp.option.allow_spider_on_packagelist"><![CDATA[Allow Spiders]]></item>
+		<item name="wcf.acp.option.allow_spider_on_packagelist.description"><![CDATA[Allows search engines to search the site.]]></item>
+		<item name="wcf.acp.option.packagelist_enable_package"><![CDATA[Identifier show?]]></item>
+		<item name="wcf.acp.option.packagelist_enable_package.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.packagelist_enable_packagedescription"><![CDATA[Description show?]]></item>
+		<item name="wcf.acp.option.packagelist_enable_packagedescription.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.packagelist_enable_packageurl"><![CDATA[Homepage show?]]></item>
+		<item name="wcf.acp.option.packagelist_enable_packageurl.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.packagelist_enable_packageversion"><![CDATA[Version show?]]></item>
+		<item name="wcf.acp.option.packagelist_enable_packageversion.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.packagelist_enable_packagedate"><![CDATA[Date show?]]></item>
+		<item name="wcf.acp.option.packagelist_enable_packagedate.description"><![CDATA[]]></item>
+		<!-- /page -->
+	</category>
+	<category name="wcf.packagelist">
+		<item name="wcf.packagelist.title"><![CDATA[Packagelist]]></item>
+		<item name="wcf.packagelist.description"><![CDATA[Installed packages]]></item>
+		<item name="wcf.packagelist.list.count"><![CDATA[A total of {#$items} packages installed.]]></item>
+		<item name="wcf.packagelist.list.id"><![CDATA[ID]]></item>
+		<item name="wcf.packagelist.list.name"><![CDATA[Name]]></item>
+		<item name="wcf.packagelist.list.identifier"><![CDATA[Identifier]]></item>
+		<item name="wcf.packagelist.list.author"><![CDATA[Author]]></item>
+		<item name="wcf.packagelist.list.url"><![CDATA[Homepage]]></item>
+		<item name="wcf.packagelist.list.packageDescription"><![CDATA[Description]]></item>
+		<item name="wcf.packagelist.list.version"><![CDATA[Version]]></item>
+		<item name="wcf.packagelist.list.date"><![CDATA[Date]]></item>
+		<item name="wcf.packagelist.list.standalone"><![CDATA[Standalone application]]></item>
+		<item name="wcf.packagelist.list.plugin"><![CDATA[Plugin]]></item>
+		<item name="wcf.packagelist.list.other"><![CDATA[Package]]></item>
+	</category>
+</language>

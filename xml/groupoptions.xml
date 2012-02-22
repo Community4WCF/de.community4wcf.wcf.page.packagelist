@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: groupoptions.xml 1752 2011-02-08 23:55:48Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/group-options.xsd">
+	<import>
+		<categories>
+			<category name="user.managepages">
+				<parent>user</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="user.managepages.canViewPackageList">
+				<categoryname>user.managepages</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_packagelist</options>
+			</option>
+		</options>
+	</import>
+</data>

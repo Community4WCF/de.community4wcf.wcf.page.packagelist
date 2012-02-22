@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 1817 2011-08-26 12:28:30Z TobiasH87 $ -->
+<package name="de.community4wcf.wcf.page.packagelist" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Packagelist]]></packagename>
+		<packagename language="de"><![CDATA[Paketliste]]></packagename>
+		<packagename language="de-informal"><![CDATA[Paketliste]]]></packagename>
+		<packagedescription><![CDATA[]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Zeigt die installierten Pakete im Frontend an.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Zeigt die installierten Pakete im Frontend an.]]></packagedescription>
+		<version>1.0.1</version> <!-- codename: Packagelist -->
+		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
+		<date>2011-08-26</date>
+		<isunique>1</isunique>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wcf.data.page</plugin>
+	</packageinformation>
+
+	<!-- Icons: -->
+
+	<licenseinformation>
+		<license><![CDATA[LGPL]]></license>
+		<licenseURL><![CDATA[http://opensource.org/licenses/lgpl-license.php]]></licenseURL>
+	</licenseinformation>
+	<authorinformation>
+		<author><![CDATA[TobiasH]]></author>
+		<authorURL><![CDATA[https://www.woltlab.com/forum/index.php?page=User&userID=1331470]]></authorURL>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.data.page</requiredpackage>
+		<requiredpackage minversion="1.1.7">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	<excludedpackages>
+		<excludedpackage>com.community4wcf.pluginpage</excludedpackage>
+	</excludedpackages>
+	<!-- 
+	<optionalpackages>
+		<optionalpackage file="optionals/de.community4wcf.wcf.page.packagelist.brandingfree.tar">de.community4wcf.wcf.page.packagelist.brandingfree</optionalpackage>
+	</optionalpackages>
+	 -->
+
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<options>xml/options.xml</options>
+		<pagemenu>xml/pagemenu.xml</pagemenu>
+		<groupoptions>xml/groupoptions.xml</groupoptions>
+		<pagelocation>xml/pagelocation.xml</pagelocation>
+		<!-- languages -->
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.0.0">
+		<!-- files -->
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<options>xml/options.xml</options>
+		<!-- languages -->
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+	</instructions>
+</package>
